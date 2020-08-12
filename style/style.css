@@ -1,0 +1,223 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+code {
+    font-size: 16px;
+    color: orange;
+    font-family: monospace;
+    text-decoration: ;
+}
+
+.group {
+    top: 20px;
+    width: 300px;
+    margin: 20px;
+    position: sticky;
+}
+#navbar {
+    width: auto;
+    background-color: #1c1c1e;
+}
+
+#navbar header {
+    text-align: center;
+}
+
+#top-nav-bar {
+    font-size: 25px;
+    font-weight: bold;
+
+    display: grid;
+    place-items: center;
+    height: 40px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color:#45484a;
+    color: white;
+}
+
+#bottom-nav-bar {
+    padding: 10px 10px 10px 10px;
+    overflow-y: auto;
+    background-color:rgb(44,44,46);
+    color: white;
+}
+
+#bottom-nav-bar a {
+    text-decoration: none;
+    color: white;
+    display:block;
+}
+
+#bottom-nav-bar a: hover {
+    color: blue;
+}
+
+
+#bottom-nav-bar div {
+    
+}
+
+.nav-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#main-doc {
+    /*background-color: aqua;*/
+    margin: 20;
+}
+
+main header {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#main-doc section {
+    margin: 10px 7px 10px 7px;
+}
+#main-doc article {
+    margin-bottom: 25px;
+}
+#main-doc p {
+    margin-bottom: 8px;
+}
+
+.bullet-list {
+    margin-left: 20px;
+}
+
+
+.prettyprint {
+    visibility: hidden;
+    display: none;
+}
+
+#footer {
+    text-align: center;
+}
+
+/*RESPONSIVE WEB ON IPHONE 6/7/8/SE*/
+@media only screen and (max-width: 414px) {
+
+    p {
+        font-size: 17px;
+    }
+    /*#navbar {
+        border: 2px solid grey;
+    }*/
+    .group {
+        width: auto;
+        margin: 0;
+        border-bottom: 2px solid #45484a;
+        
+    }
+    #navbar header{
+        
+    }
+    
+    #top-nav-bar {
+        height: 20px;
+        width: 100%;
+    }
+
+    #bottom-nav-bar {
+        border-top: 0px solid;
+        border-bottom: 0px solid;
+        border-left: 0px solid;
+        border-right: 0px solid;
+        
+        background-color: rgb(44,44,46);
+        position: -webkit-sticky;
+        top: 0;
+        position: sticky;
+        color: rebeccapurple;
+        width: auto;
+        height: 130px;
+        overflow-y: auto;
+        /*vertically scroll*/
+        font-size: 20px;
+    }
+    #bottom-nav-bar a {
+        color: white;
+    }
+   
+    #bottom-nav-bar div {
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+       
+       width: auto;
+    }
+    #bottom-nav-bar a {
+        text-decoration: none;
+    }
+    #small-section {
+        
+        list-style-type: none;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    #smaller-section {
+        list-style-type: none;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .nav-section {
+        border-bottom: 1px solid grey;
+        width: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    body {
+
+        display: flex;
+        overflow: hidden;
+        overflow-x: auto;
+        flex-direction: column;
+    }
+
+    #main-doc {
+        margin-top: 0;
+        text-align: justify;
+    }
+
+    #main-doc header {
+        text-align: center;
+    }
+
+    #main-doc section {
+        margin: 10px 7px 10px 7px;
+    }
+    #main-doc article {
+        margin-bottom: 25px;
+    }
+    #main-doc p {
+        margin-bottom: 8px;
+    }
+    .prettyprint {
+        display: none;
+        visibility: hidden;
+    }
+    #footer {
+        text-align: center;
+    }
+}
+/*RESPONSIVE WEB ON IPHONE 6/7/8/SE*/
